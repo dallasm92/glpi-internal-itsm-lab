@@ -63,7 +63,15 @@ This lab extends the homelab operations work rather than standing alone. GLPI wa
 - ITIL categories were created for `Hardware`, `Software`, `Network`, `Accounts / Access`, `Cloud / Azure`, and `Homelab Services`.
 - Backup automation was configured on the host after a successful manual test.
 
+## Why This Matters
+
+- It shows a support-oriented workflow instead of just a container deployment.
+- It ties together service rollout, DNS validation, asset tracking, ticket handling, and backups in one usable internal system.
+- It demonstrates that the homelab is being used to build operational habits, not just to host services.
+
 ## Screenshots
+
+The evidence set for this repo is intentionally curated. A short note on the source screenshots is included in [EVIDENCE_NOTES.md](EVIDENCE_NOTES.md).
 
 ![Screenshot 1 - GLPI dashboard](images/01-glpi-dashboard.png)
 *Initial GLPI dashboard after the web installer completed and the admin account was usable.*

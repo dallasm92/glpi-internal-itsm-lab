@@ -29,3 +29,8 @@ Deploy GLPI internally in the homelab, validate workstation access from `MAIN-PC
 ## Portfolio Value
 
 This lab shows a practical internal service rollout instead of a theory-only write-up. It combines deployment, DNS validation, ITSM setup, asset tracking, ticketing, and backups in a way that maps well to support and systems work.
+
+## Notes
+
+- The public evidence focuses on the working GLPI workflow after deployment.
+- Container build and DNS setup details are documented from session notes rather than full browser screenshot coverage.
