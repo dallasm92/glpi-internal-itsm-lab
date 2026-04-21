@@ -6,7 +6,7 @@ GLPI Internal ITSM Lab on Pi-Core
 
 ## Goal
 
-Deploy GLPI internally in the homelab, validate workstation access from `MAIN-PC`, create the first assets and tickets, and add backup automation.
+Deploy GLPI internally in the homelab, validate workstation access from `MAIN-PC`, create the first assets and tickets, add an internal service-catalog baseline, and add local plus off-host backup validation.
 
 ## Skills Demonstrated
 
@@ -14,7 +14,7 @@ Deploy GLPI internally in the homelab, validate workstation access from `MAIN-PC
 - DNS-based access validation for a homelab application
 - Initial ITSM platform configuration inside GLPI
 - Asset tracking and ticket workflow setup
-- Operational backup planning for a self-hosted service
+- Operational backup planning and off-host validation for a self-hosted service
 
 ## Final State
 
@@ -24,7 +24,10 @@ Deploy GLPI internally in the homelab, validate workstation access from `MAIN-PC
 - Assets created for `MAIN-PC`, `pi-core`, and `asus-server`
 - First incident ticket created and closed
 - Initial ITIL categories created
+- Pinned service-catalog entries created for `GLPI`, `Pi-hole DNS`, `Homepage`, `Uptime Kuma`, `Immich`, and `Portainer`
 - Nightly backup job configured on the host
+- Off-host backup pull and validation configured on MacMint
+- Service-catalog live-state evidence added in `SERVICE_CATALOG_EVIDENCE.md`
 
 ## Portfolio Value
 
@@ -34,3 +37,4 @@ This lab shows a practical internal service rollout instead of a theory-only wri
 
 - The public evidence focuses on the working GLPI workflow after deployment.
 - Container build and DNS setup details are documented from session notes rather than full browser screenshot coverage.
+- Service-catalog evidence is text-based to avoid publishing unnecessary browser/session context.

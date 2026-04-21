@@ -13,6 +13,7 @@ The curated screenshots show:
 - notes attached to the `MAIN-PC` asset
 - the first incident ticket lifecycle
 - the first ITIL category set
+- sanitized live-state service-catalog validation in `SERVICE_CATALOG_EVIDENCE.md`
 
 ## What The Evidence Does Not Show
 
@@ -21,7 +22,7 @@ The current screenshot set does not directly show:
 - container creation on `pi-core`
 - MariaDB configuration
 - Pi-hole DNS record creation
-- backup script creation or cron configuration
+- backup script creation, cron configuration, or off-host validation output
 
 Those parts of the lab are documented from the deployment session notes and live system state rather than browser screenshots.
 
