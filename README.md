@@ -1,5 +1,8 @@
 # GLPI Internal ITSM Lab on Pi-Core
 
+Social preview asset:
+- [assets/social-preview.png](assets/social-preview.png)
+
 ## Objective
 
 Deploy GLPI as an internal-only ITSM platform in the homelab, make it reachable from `MAIN-PC`, complete the initial admin setup, create the first assets and tickets, add an internal service-catalog baseline, and add local plus off-host backup validation.
